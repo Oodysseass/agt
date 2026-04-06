@@ -1,0 +1,39 @@
+%% general
+
+%% algorithms
+% functions
+
+% variables
+\newcommand{\p}{\textbf{p}}
+\newcommand{\q}{\textbf{q}}
+
+% operators
+\algblock{On}{EndOn}
+\algrenewtext{On}[1]{\textbf{upon} #1}
+\algrenewtext{EndOn}{\textbf{end upon}}
+
+%% theorems
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{assumption}{Assumption}
+
+\newtheorem{remark}{Remark}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+
+%% macros for authors' comments
+\newcommand{\todo}[1]{{\color{BlueViolet} \textbf{TODO:} #1}}
+\newcommand{\diff}[1]{\textcolor{orange}{#1}}
+\newcommand{\CommentLine}[1]{
+  \State \(\triangleright\) \textit{#1}
+}
+\renewcommand{\Comment}[1]{
+  \hfill \(\triangleright\) \textit{#1}
+}
+
+%% setup
+\newcommand{\Lineref}[1]{Line~\ref{#1}}
+\def\UrlBreaks{\do\/\do-}

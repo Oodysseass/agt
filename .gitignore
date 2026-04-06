@@ -1,0 +1,42 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ind
+*.ilg
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+*.ist
+*.xdy
+*.pdf_tex
+
+# Output directory
+output/
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
