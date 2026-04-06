@@ -1,0 +1,385 @@
+{
+  "timestamp": "20260406_174723",
+  "config": {
+    "n_values": [
+      20,
+      50,
+      100
+    ],
+    "epsilon_values": [
+      0.01,
+      0.001
+    ],
+    "games_per_combination": 10,
+    "zero_sum": true,
+    "T_cap": 1000000
+  },
+  "results": [
+    {
+      "n": 20,
+      "epsilon": 0.01,
+      "T_max": 1000000,
+      "converged": "10/10",
+      "convergence_rate": 1.0,
+      "avg_iterations": 3484.9,
+      "avg_iterations_when_converged": 3484.9,
+      "games": [
+        {
+          "game": 0,
+          "converged": true,
+          "iterations": 3403
+        },
+        {
+          "game": 1,
+          "converged": true,
+          "iterations": 3053
+        },
+        {
+          "game": 2,
+          "converged": true,
+          "iterations": 3440
+        },
+        {
+          "game": 3,
+          "converged": true,
+          "iterations": 3890
+        },
+        {
+          "game": 4,
+          "converged": true,
+          "iterations": 4111
+        },
+        {
+          "game": 5,
+          "converged": true,
+          "iterations": 3255
+        },
+        {
+          "game": 6,
+          "converged": true,
+          "iterations": 3606
+        },
+        {
+          "game": 7,
+          "converged": true,
+          "iterations": 3022
+        },
+        {
+          "game": 8,
+          "converged": true,
+          "iterations": 4205
+        },
+        {
+          "game": 9,
+          "converged": true,
+          "iterations": 2864
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "epsilon": 0.001,
+      "T_max": 1000000,
+      "converged": "10/10",
+      "convergence_rate": 1.0,
+      "avg_iterations": 470540.8,
+      "avg_iterations_when_converged": 470540.8,
+      "games": [
+        {
+          "game": 0,
+          "converged": true,
+          "iterations": 337990
+        },
+        {
+          "game": 1,
+          "converged": true,
+          "iterations": 471138
+        },
+        {
+          "game": 2,
+          "converged": true,
+          "iterations": 510239
+        },
+        {
+          "game": 3,
+          "converged": true,
+          "iterations": 488493
+        },
+        {
+          "game": 4,
+          "converged": true,
+          "iterations": 583274
+        },
+        {
+          "game": 5,
+          "converged": true,
+          "iterations": 337533
+        },
+        {
+          "game": 6,
+          "converged": true,
+          "iterations": 452649
+        },
+        {
+          "game": 7,
+          "converged": true,
+          "iterations": 527144
+        },
+        {
+          "game": 8,
+          "converged": true,
+          "iterations": 616134
+        },
+        {
+          "game": 9,
+          "converged": true,
+          "iterations": 380814
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "epsilon": 0.01,
+      "T_max": 1000000,
+      "converged": "10/10",
+      "convergence_rate": 1.0,
+      "avg_iterations": 7813.3,
+      "avg_iterations_when_converged": 7813.3,
+      "games": [
+        {
+          "game": 0,
+          "converged": true,
+          "iterations": 8233
+        },
+        {
+          "game": 1,
+          "converged": true,
+          "iterations": 7476
+        },
+        {
+          "game": 2,
+          "converged": true,
+          "iterations": 8338
+        },
+        {
+          "game": 3,
+          "converged": true,
+          "iterations": 8938
+        },
+        {
+          "game": 4,
+          "converged": true,
+          "iterations": 7414
+        },
+        {
+          "game": 5,
+          "converged": true,
+          "iterations": 6621
+        },
+        {
+          "game": 6,
+          "converged": true,
+          "iterations": 7661
+        },
+        {
+          "game": 7,
+          "converged": true,
+          "iterations": 7869
+        },
+        {
+          "game": 8,
+          "converged": true,
+          "iterations": 8185
+        },
+        {
+          "game": 9,
+          "converged": true,
+          "iterations": 7398
+        }
+      ]
+    },
+    {
+      "n": 50,
+      "epsilon": 0.001,
+      "T_max": 1000000,
+      "converged": "4/10",
+      "convergence_rate": 0.4,
+      "avg_iterations": 969171.4,
+      "avg_iterations_when_converged": 922928.5,
+      "games": [
+        {
+          "game": 0,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 1,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 2,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 3,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 4,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 5,
+          "converged": true,
+          "iterations": 827706
+        },
+        {
+          "game": 6,
+          "converged": true,
+          "iterations": 976099
+        },
+        {
+          "game": 7,
+          "converged": true,
+          "iterations": 967370
+        },
+        {
+          "game": 8,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 9,
+          "converged": true,
+          "iterations": 920539
+        }
+      ]
+    },
+    {
+      "n": 100,
+      "epsilon": 0.01,
+      "T_max": 1000000,
+      "converged": "10/10",
+      "convergence_rate": 1.0,
+      "avg_iterations": 15423.6,
+      "avg_iterations_when_converged": 15423.6,
+      "games": [
+        {
+          "game": 0,
+          "converged": true,
+          "iterations": 15844
+        },
+        {
+          "game": 1,
+          "converged": true,
+          "iterations": 13775
+        },
+        {
+          "game": 2,
+          "converged": true,
+          "iterations": 13831
+        },
+        {
+          "game": 3,
+          "converged": true,
+          "iterations": 14373
+        },
+        {
+          "game": 4,
+          "converged": true,
+          "iterations": 14401
+        },
+        {
+          "game": 5,
+          "converged": true,
+          "iterations": 16745
+        },
+        {
+          "game": 6,
+          "converged": true,
+          "iterations": 16157
+        },
+        {
+          "game": 7,
+          "converged": true,
+          "iterations": 18250
+        },
+        {
+          "game": 8,
+          "converged": true,
+          "iterations": 15175
+        },
+        {
+          "game": 9,
+          "converged": true,
+          "iterations": 15685
+        }
+      ]
+    },
+    {
+      "n": 100,
+      "epsilon": 0.001,
+      "T_max": 1000000,
+      "converged": "0/10",
+      "convergence_rate": 0.0,
+      "avg_iterations": 1000000.0,
+      "avg_iterations_when_converged": null,
+      "games": [
+        {
+          "game": 0,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 1,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 2,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 3,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 4,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 5,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 6,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 7,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 8,
+          "converged": false,
+          "iterations": 1000000
+        },
+        {
+          "game": 9,
+          "converged": false,
+          "iterations": 1000000
+        }
+      ]
+    }
+  ]
+}
