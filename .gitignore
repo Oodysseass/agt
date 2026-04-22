@@ -31,6 +31,7 @@
 
 # Output directory
 output/
+*.zip
 
 # Python virtual environments
 .venv/
@@ -40,3 +41,4 @@ __pycache__/
 
 # macOS
 .DS_Store
+
